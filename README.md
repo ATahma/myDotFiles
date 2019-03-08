@@ -17,6 +17,7 @@ myDotFiles - on an Antergos Base Install
  __More to be added as soon as I remember them!__
  
 (1) Use `sudo sustemctl enable lightdm.service` to enable lightdm and log in directly into i3
+
 (2) Important! antergos (at the beginning of the fresh base install) does not seem to connect to the wifi properly, thus use 
 `sudo systemctl enable NetworkManager` to start wifi services. (case-sensitive)
 
