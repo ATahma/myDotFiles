@@ -24,4 +24,6 @@ myDotFiles - on an Antergos Base Install
 ### Optionals:
 __unicode-rxvt :__ terminal emulater (1)
 
+__playerctl :__ for keyboards that have pause, next and prevois sound control keys
+
 (1) I will post the config file later as I configure mine!
