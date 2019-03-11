@@ -19,6 +19,8 @@ I first did it on Antergos Base but due to many connectivity issues, bloatware a
  
  __lxappearance :__ for configuring gtk fonts
  
+ __bash_completion :__ for enhanced automatic bash completion
+ 
  
  __More to be added as soon as I remember them!__
  
