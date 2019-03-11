@@ -38,6 +38,6 @@ __ttf-anonymous-pro (font) :__ this font can be found here (used with my setup) 
 
 (1) I will post the config file later as I configure mine!
 
-###TODO LIST
+### TODO LIST ###
 - [ ] Configure urxvt
 - [ ] Configure i3blocks
