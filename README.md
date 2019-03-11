@@ -1,6 +1,6 @@
 # myDotFiles
-myDotFiles - on an ~~Antergos~~ [Insert Distro Here] Base Install
-I first did it on Antergos Base but due to many connectivity issues and bugs (e.g. public wifi connectivity issues) I decide to distrohopp again, but the dotfile stay the same.
+myDotFiles - on an ~~Antergos~~ Arch Linux (BTW) Base Install
+I first did it on Antergos Base but due to many connectivity issues, bloatware and bugs (e.g. public wifi connectivity issues) I decide to distrohopp again, but the dotfile stay the same.
 
 ### Packages to install:
  __xorg_xbacklight :__ for screen brightness
@@ -37,3 +37,7 @@ __arandr :__ GUI for configuring multi-display set ups
 __ttf-anonymous-pro (font) :__ this font can be found here (used with my setup) [Here](https://www.marksimonson.com/fonts/view/anonymous-pro) - it is in Arch Linux's repos so easy to install and renders well!
 
 (1) I will post the config file later as I configure mine!
+
+###TODO LIST
+- [ ] Configure urxvt
+- [ ] Configure i3blocks
