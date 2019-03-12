@@ -1,0 +1,45 @@
+! This font rendering is magnificent!
+URxvt.font: xft:Source Code Pro:size=11
+! Scroll bar removal
+URxvt.scrollBar: False
+! Colors
+! special
+*.foreground:   #d1cdd4
+*.background:   #0e0c10
+*.cursorColor:  #d1cdd4
+
+! black
+*.color0:       #17141a
+*.color8:       #af49df
+
+! red
+*.color1:       #211d23
+*.color9:       #dd9f4a
+
+! green
+*.color2:       #332e37
+*.color10:      #5bb8a4
+
+! yellow
+*.color3:       #4c4551
+*.color11:      #3290b5
+
+! blue
+*.color4:       #6b6272
+*.color12:      #da2e82
+
+! magenta
+*.color5:       #8f8697
+*.color13:      #c48e48
+
+! cyan
+*.color6:       #b7b1bc
+*.color14:      #f38bb2
+
+! white
+*.color7:       #e4e2e6
+*.color15:      #ca8df0
+
+!URxvt.perl-ext-common: bell-command
+URxvt.perl-ext:
+URxvt.perl-ext-common:
