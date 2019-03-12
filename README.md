@@ -1,6 +1,7 @@
 # myDotFiles
 myDotFiles - on an ~~Antergos~~ Arch Linux (BTW) Base Install
-I first did it on Antergos Base but due to many connectivity issues, bloatware and bugs (e.g. public wifi connectivity issues) I decide to distrohopp again, but the dotfile stay the same.
+
+I first did it on Antergos Base but due to many connectivity issues, software that I did not need and bugs (e.g. public wifi connectivity issues) I decide to distrohopp again, but the dotfile stay the same.
 
 ### Packages to install:
  __xorg_xbacklight :__ for screen brightness
