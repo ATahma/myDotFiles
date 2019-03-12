@@ -50,6 +50,7 @@ __ttf-anonymous-pro (font) :__ this font can be found here (used with my setup) 
 
 ### Useful Stuff ###
 [A Through Youtube Toturial on how to set up i3](https://www.youtube.com/watch?v=j1I63wGcvU4&list=RDQMLVYOkGX99sA&start_radio=1)
+
 [Arch Wiki had an answer 95% of the time](https://wiki.archlinux.org/) 
 
 
