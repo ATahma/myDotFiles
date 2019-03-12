@@ -12,11 +12,15 @@ I first did it on Antergos Base but due to many connectivity issues, software th
  
  __lightdm lightdm-gtk-greeter :__ display manager (1) 
  
- __i3lock i3-gaps i3blocks :__ for i3 and stuff
+ __i3lock i3-gaps :__ for i3 wm and the lcokscreen
  
  __NetworkManager and network-manager-applet :__ for connecting to the wifi  (2) 
  
  __feh :__ for wallpaper configuration
+ 
+ __i3blocks :__ i3blocks to display system information on the i3bar ( you could also use i3status, which is configured by default)
+ 
+ __alsa-utils sysstat acpi :__ in order: for volume display, cpu/load display and battery charge
  
  __lxappearance :__ for configuring gtk fonts
  
@@ -30,6 +34,9 @@ I first did it on Antergos Base but due to many connectivity issues, software th
 (2) Important! antergos (at the beginning of the fresh base install) does not seem to connect to the wifi properly, thus use 
 `sudo systemctl enable NetworkManager` to start wifi services. (case-sensitive)
 
+(3) For i3blocks you might need to grant it root privileges if you wis to display internet speed, ram usage, volume, cpu usage and etc. add `USERNAME HOSTNAME= NOPASSWD: /usr/bin/i3blocks` and reinstall i3blocks.
+Please note that there is a lot that can be done with i3blocks and you should read the config file normally at `/etc/i3blocks.conf` or look up what you can do with it (example [Youtube](https://www.youtube.com/watch?v=ARKIwOlazKI&t=2218s) ) 
+
 ### Optionals:
 __unicode-rxvt :__ terminal emulater (1)
 
@@ -40,6 +47,11 @@ __arandr :__ GUI for configuring multi-display set ups
 __ttf-anonymous-pro (font) :__ this font can be found here (used with my setup) [Here](https://www.marksimonson.com/fonts/view/anonymous-pro) - it is in Arch Linux's repos so easy to install and renders well!
 
 (1) I will post the config file later as I configure mine!
+
+### Useful Stuff ###
+[A Through Youtube Toturial on how to set up i3](https://www.youtube.com/watch?v=j1I63wGcvU4&list=RDQMLVYOkGX99sA&start_radio=1)
+[Arch Wiki had an answer 95% of the time](https://wiki.archlinux.org/) 
+
 
 ### TODO LIST ###
 - [ ] Configure urxvt
