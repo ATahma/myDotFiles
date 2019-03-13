@@ -26,13 +26,13 @@ I first did it on Antergos Base but due to many connectivity issues, software th
  
  __bash_completion :__ for enhanced automatic bash completion
  
+ __ttf-terminus :__ a great font for the terminal
  
  __More to be added as soon as I remember them!__
  
 (1) Use `sudo sustemctl enable lightdm.service` to enable lightdm and log in directly into i3
 
-(2) Important! antergos (at the beginning of the fresh base install) does not seem to connect to the wifi properly, thus use 
-`sudo systemctl enable NetworkManager` to start wifi services. (case-sensitive)
+(2) Important! use `sudo systemctl enable NetworkManager` to enable wifi services. (case-sensitive)
 
 (3) For i3blocks you might need to grant it root privileges if you wis to display internet speed, ram usage, volume, cpu usage and etc. add `USERNAME HOSTNAME= NOPASSWD: /usr/bin/i3blocks` and reinstall i3blocks.
 Please note that there is a lot that can be done with i3blocks and you should read the config file normally at `/etc/i3blocks.conf` or look up what you can do with it (example [Youtube](https://www.youtube.com/watch?v=ARKIwOlazKI&t=2218s) ) 
@@ -55,5 +55,5 @@ __ttf-anonymous-pro (font) :__ this font can be found here (used with my setup) 
 
 
 ### TODO LIST ###
-- [ ] Configure urxvt
-- [ ] Configure i3blocks
+- [X] Configure urxvt
+- [X] Configure i3blocks
