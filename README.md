@@ -10,7 +10,7 @@ I first did it on Antergos Base but due to many connectivity issues, software th
  
  __xorg_server xorg-xinit :__ display server - you need to create a file .xinitrc  in your home directory and write `exec i3` at the beginning
  
- __lightdm lightdm-gtk-greeter :__ display manager (1) 
+ __lightdm lightdm-gtk-greeter lightdm-webkit-theme-archlinux :__ display manager (1) 
  
  __i3lock i3-gaps :__ for i3 wm and the lcokscreen
  
@@ -30,7 +30,8 @@ I first did it on Antergos Base but due to many connectivity issues, software th
  
  __More to be added as soon as I remember them!__
  
-(1) Use `sudo sustemctl enable lightdm.service` to enable lightdm and log in directly into i3
+(1) Use `sudo sustemctl enable lightdm.service` to enable lightdm and log in directly into i3. 
+To change the icon and background refer to [Arch Wiki](https://wiki.archlinux.org/index.php/LightDM#Changing_background_images/colors)
 
 (2) Important! use `sudo systemctl enable NetworkManager` to enable wifi services. (case-sensitive)
 
