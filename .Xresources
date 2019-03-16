@@ -1,5 +1,5 @@
 ! This font rendering is magnificent!
-URxvt.font: xft:Source Code Pro:size=11
+URxvt.font: xft:Terminus:size=11
 ! Scroll bar removal
 URxvt.scrollBar: False
 ! Colors
