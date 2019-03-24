@@ -49,7 +49,14 @@ __ttf-anonymous-pro (font) :__ this font can be found here (used with my setup) 
 
 (1) I will post the config file later as I configure mine!
 
+### For Jupyter notebooks:
+__python-pip :__ python package manager for python 3 
+
+Install jupyter themes to change jupyter notebook looks : `# pip install jupyterthemes` 
+
 ### Useful Stuff ###
+[Jupyter Thmemes Repo](https://github.com/dunovank/jupyter-themes)
+
 [A Through Youtube Toturial on how to set up i3](https://www.youtube.com/watch?v=j1I63wGcvU4&list=RDQMLVYOkGX99sA&start_radio=1)
 
 [Arch Wiki had an answer 95% of the time](https://wiki.archlinux.org/) 
