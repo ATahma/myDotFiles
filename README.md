@@ -38,6 +38,11 @@ To change the icon and background refer to [Arch Wiki](https://wiki.archlinux.or
 (3) For i3blocks you might need to grant it root privileges if you wis to display internet speed, ram usage, volume, cpu usage and etc. add `USERNAME HOSTNAME= NOPASSWD: /usr/bin/i3blocks` and reinstall i3blocks.
 Please note that there is a lot that can be done with i3blocks and you should read the config file normally at `/etc/i3blocks.conf` or look up what you can do with it (example [Youtube](https://www.youtube.com/watch?v=ARKIwOlazKI&t=2218s) ) 
 
+### To configure zsh:
+__zsh :__ z shell
+
+__zsh-completions :__ package similar to bash-completion 
+
 ### Optionals:
 __unicode-rxvt :__ terminal emulater (1)
 
@@ -65,3 +70,4 @@ Install jupyter themes to change jupyter notebook looks : `# pip install jupyter
 ### TODO LIST ###
 - [X] Configure urxvt
 - [X] Configure i3blocks
+- [ ] Configure zsh
