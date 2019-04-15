@@ -1,7 +1,8 @@
 ! This font rendering is magnificent!
-URxvt.font: xft:Terminus:size=11
+URxvt.font: xft:Anonymous Pro:size=12
 ! Scroll bar removal
 URxvt.scrollBar: False
+URxvt.letterSpace: 1.5
 ! Colors
 ! special
 *.foreground:   #d1cdd4
