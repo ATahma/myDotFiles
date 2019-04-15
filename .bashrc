@@ -1,5 +1,5 @@
 
-echo "Sourcing ${HOME}/.bashrc..."
+# echo "Sourcing ${HOME}/.bashrc..."
 
 # Test for an interactive shell.  There is no need to set anything
 # past this point for scp and rcp, and it's important to refrain from
@@ -12,13 +12,15 @@ fi
 # For auto completion - requires bash_completion package
 
 
-if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
+if [ -f /usr/share/bash-completion/bash_completion ]; then
+	. /usr/share/bash-completion/bash_completion
 fi
 
 
 # default prompt
 alias ls='ls --color=auto'
+alias ll='ls -al --color=auto'
+alias pacupdate='sudo pacman -Syu'
 PS1='[\u@\h \W]\$ '
 
 
