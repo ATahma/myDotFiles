@@ -44,7 +44,7 @@ __zsh :__ z shell
 __zsh-completions :__ package similar to bash-completion 
 
 ### Optionals:
-__unicode-rxvt :__ terminal emulater (1)
+__unicode-rxvt :__ terminal emulater (look at .Xresources for the config file - I am using a rather lightweight config with not plugins)
 
 __playerctl :__ for keyboards that have pause, next and prevois sound control keys
 
@@ -52,7 +52,6 @@ __arandr :__ GUI for configuring multi-display set ups
 
 __ttf-anonymous-pro (font) :__ this font can be found here (used with my setup) [Here](https://www.marksimonson.com/fonts/view/anonymous-pro) - it is in Arch Linux's repos so easy to install and renders well!
 
-(1) I will post the config file later as I configure mine!
 
 ### For Jupyter notebooks:
 __python-pip :__ python package manager for python 3 
@@ -64,7 +63,7 @@ Install jupyter themes to change jupyter notebook looks : `# pip install jupyter
 
 [A Through Youtube Toturial on how to set up i3](https://www.youtube.com/watch?v=j1I63wGcvU4&list=RDQMLVYOkGX99sA&start_radio=1)
 
-[Arch Wiki had an answer 95% of the time](https://wiki.archlinux.org/) 
+[Arch Linux Wiki](https://wiki.archlinux.org/) 
 
 
 ### TODO LIST ###
