@@ -69,4 +69,4 @@ Install jupyter themes to change jupyter notebook looks : `# pip install jupyter
 ### TODO LIST ###
 - [X] Configure urxvt
 - [X] Configure i3blocks
-- [ ] Configure zsh
+- [X] Configure zsh and oh-my-zsh
